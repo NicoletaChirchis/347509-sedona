@@ -3,20 +3,17 @@
   <head>
     <meta charset="utf-8">
     <title>Седона-ГОСТИНИЦЫ</title>
+	<link rel="stylesheet" href="css/style.css">
   </head>
   <body>
 
  <!--Header-->
 	<div class="container">
-		<div class="meniu_header">
+		<div class="menu_header">
 			<ul>
 				<li><a href="#">информация</a></li>
 				<li><a href="#">фото и видео</a></li>
-				<li class="meniu_header_image">
-					<a href="#">
-						<img src="#">
-					</a>
-				</li>
+				<li class="meniu_header_image"><a href="#"></a></li>
 				<li><a href="#">карта штата</a></li>
 				<li>гостиницы</li>
 			</ul>
@@ -24,30 +21,24 @@
 		
 	
 	<form class="filter">
-		<div class="infr_filter">инфраструктура:
-			<form action="#" method="post">
-				<label><input type="checkbox" checked >бассейн</label>
-				<label><input type="checkbox">парковка</label>
-				<label><input type="checkbox" >wi-fi</label>
-			</form>
+		<div class="infr_filter">инфраструктура
+			<input type="checkbox" checked id="check1"><label for id="check1">бассейн</label>
+			<input type="checkbox" id="check2"><label for id="check1">парковка</label>
+			<input type="checkbox" id="check3"><label for id="check1">wi-fi</label>
 		</div>
 			
 		<div class="habitation_type">тип жилья:
-			<form action="#" method="post">
-				<label><input type="checkbox" checked>гостиница</label>
-				<label><input type="checkbox" checked>мотель</label>
-				<label><input type="checkbox" checked>апартаменты</label>
-			</form>
+			<input type="checkbox" checked id="check1"><label for id="check1">гостиница</label>
+			<input type="checkbox" checked id="check2"><label for id="check2">мотель</label>
+			<input type="checkbox" checked id="check3"><label for id="check3">апартаменты</label>
 		</div>
 		
 		<div class="select_price">стоимость в сутки(р)
-			<form action="#" method="get">
-				<label><input type="button" value="от 0"></label>
-				<label><input type="button" value="до 3000"> </label>			
-			</form>
+			<label><input type="button" value="от 0"></label>
+			<label><input type="button" value="до 3000"> </label>			
 		</div>
 		<input type="submit" value="показать">
-		</form>
+	</form>
 	
 <!--content page-->	
 	<div class="search_detected_item">
@@ -68,7 +59,7 @@
 	
 	<div class="founded_items">
 		<div class="items_info">
-			<img src="#">
+			<img src="img/hotel Amaret Resort Spa.jpg">
 				<h3>amara resort & spa</h3>
 			<div class="habitation_type">гостиница</div>
 			<div class="select_price">от 4000 p.</div>
@@ -76,14 +67,14 @@
 				<a href="#">забронировать</a>
 		</div>
 		<div class="reiting_item">
-			<img src="#">
+			<span class="star4">star4</span
 			<span>Рейтинг:8,5</span>
 		</div>
 	</div>
 	
 	<div class="founded_items">
 		<div class="items_info">
-			<img src="#">
+			<img src="img/hotel Desert Quail Inn.jpg">
 				<h3>desert quail inn</h3>
 			<div class="habitation_type">мотель</div>
 			<div class="select_price">от 3000 p.</div>
@@ -91,14 +82,14 @@
 				<a href="#">забронировать</a>
 		</div>
 		<div class="reiting_item">
-			<img src="#">
+			<span class="star3">star3</span>
 			<span>Рейтинг:8,9</span>
 		</div>
 	</div>
 
 	<div class="founded_items">
 		<div class="items_info">
-			<img src="#">
+			<img src="img/hotel Vilas at Poco Diablo.jpg">
 				<h3>villas at poco diablo</h3>
 			<div class="habitation_type">апартаменты</div>
 			<div class="select_price">от 2000 p.</div>
@@ -106,7 +97,7 @@
 				<a href="#">забронировать</a>
 		</div>
 		<div class="reiting_item">
-			<img src="#">
+			<span class="star2">star2</span>
 			<span>Рейтинг:9,2</span>
 		</div>
 	</div>
@@ -120,7 +111,7 @@
 					<a class="social_btn social_btn_youtube" href="#">Youtube</a>
 			</div>
 			<div class="site_created">website by
-				<img src="#"></img>
+			<a href="https://htmlacademy.ru/"></a>
 			</div>
 		</div>
 	</div>
