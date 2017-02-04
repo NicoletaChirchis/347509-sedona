@@ -1,0 +1,22 @@
+
+body{
+	font-size:14px;
+	line-height:21px;
+	color:#333333;
+	font-weight:300;
+	font-family:"PT Sans Narrow", "Arial", sans-serif;
+}
+
+h3{
+	font-size:21px;
+	line-height:21px;
+	color:#000000;
+	font-weight:600;
+	text-transform:uppercase;
+}
+
+h4{
+	line-height:26px;
+	font-weight:600;
+	text-transform:uppercase;
+}
