@@ -1,0 +1,202 @@
+.clearfix{
+	clear:both;
+}
+body{
+	font-size: 14px;
+	line-height: 21px;
+	color: #333333;
+	font-weight: 300;
+	font-family: "PT Sans Narrow", "Arial", sans-serif;
+}
+
+h3{
+	font-size: 21px;
+	line-height: 21px;
+	color: #000000;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+h4{
+	line-height: 26px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.container{
+	width: 1200px;
+	min-height: 1200px;
+	outline: 2px solid black;
+	margin:auto;
+}
+
+.menu_header{
+	width: 1200px;
+	min-height: 60px;
+	outline: 1px solid black;
+	margin-bottom:0;
+}
+
+.menu_header li{
+	display: inline;
+}
+
+.view_header{
+	width: 1200px;
+	height: 535px;
+	outline: 1px solid black;
+	background: #000000 url(img/background_photo_index.jpg);
+}
+.content .title_page{
+	width: 1200px;
+	height: 190px;
+	outline: 1px solid black;
+}
+
+.info_sedona{
+	width: 1200px;
+	height: 256px;
+	outline: 1px solid black;
+}
+
+.info_sedona_left{
+	width: 400px;
+	height: 256px;
+	float: left;
+	background: #81b3d2;
+}
+.info_sedona_right{
+	width: 800px;
+	height: 256px;
+	float: left;
+}
+
+.features {
+	width: 1200px;
+	height: 335px;
+	outline: 1px solid black;
+}
+
+.features img{
+	margin-left: 165px;
+	margin-right: 165px;
+	margin-top:70px;
+}
+.features h4,
+.features p {
+	text-align: center;
+}
+
+.features_block_1{
+	width: 400px;
+	height: 335px;
+	float: left;
+	outline: 1px solid black;
+}
+
+.features_block_2{
+	width: 400px;
+	height: 335px;
+	float: left;
+	outline: 1px solid black;
+}
+
+.features_block_3{
+	width: 400px;
+	height: 335px;
+	float: left;
+	outline: 1px solid black;
+}
+
+.reservation{
+	width: 1200px;
+	height: 770px;
+	outline: 1px solid black;
+	padding-top: 60px; 
+}
+
+.reservation_form h3,
+.reservation_form p{
+	text-align: center;
+}
+
+.search_form{
+	width: 480px;
+	height: 570px;
+	outline: 1px solid black;
+	margin: 0 auto;
+}
+
+.footer{
+	width: 1200px;
+	height: 120px;
+}
+
+.footer .chekin_sedona{
+	width: 400px;
+	height: 120px;
+	outline: 1px solid black;
+	float: left;
+}
+
+.footer .footer_social{
+	width: 400px;
+	height: 120px;
+	outline: 1px solid black;
+	float: left;
+}
+
+.footer .site_created{
+	width: 400px;
+	height: 120px;
+	outline: 1px solid black;
+	float: left;
+}
+
+.filter{
+	width: 1200px;
+	height: 220px;
+	outline: 1px solid black;
+}
+
+.filter .infr_filter{
+	width: 240px;
+	height: 220px;
+	outline: 1px solid black;
+	float: left;
+}
+
+.filter .infr_filter input{
+	display: block;
+}
+
+.filter .habitation_type{
+	width: 240px;
+	height: 220px;
+	outline: 1px solid black;
+	float: left;
+}
+
+.filter .habitation_type input{
+	display: block;
+}
+	
+.filter .elect_price{
+	width: 720px;
+	height: 220px;
+	outline: 1px solid black;
+	float: left;
+}
+
+.result{
+	width: 1200px;
+	height: 560px;
+	outline: 1px solid black;
+}
+
+.founded_items{
+	width: 1060px;
+	min-height: 100px;
+	outline: 1px solid black;
+	padding:30px 70px;
+}
