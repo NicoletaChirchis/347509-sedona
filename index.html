@@ -3,30 +3,30 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Седона</title>
-		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css"> 
+		
 	</head>
 	<body>
 <!--header-->
 		<div class="container">
-			<div class="menu_header">
+			<div class="menu_header clearfix">
 				<ul>
 					<li><a href="#">информация</a></li>
 					<li><a href="#">фото и видео</a></li>
-					<img src="#">
+					<li class="index_link"><a href="index.html"><img src="img/logo.png"></a></li>
 					<li><a href="#">карта штата</a></li>
 					<li><a href="#">гостиницы</a></li>
 				</ul>
 			</div>
-			<div class="view_header">
-				<div class="welcome_to_sedona"></div>
-			</div>
+			<div class="view_header"></div>
 <!--content page-->
 			<div class="content">
 				<div class="title_page">
-					<h3>СЕДОНА — небольшой городок в АРИЗОНЕ,<br>заслуживающий большего!</h3>
+					<h3>СЕДОНА — небольшой городок в АРИЗОНЕ, заслуживающий большего!</h3>
 					<p>Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
 				</div>
-				<div class="info_sedona">
+				<div class="info_sedona clearfix">
 					<div class="info_sedona_left">
 						<h4>НАСТОЯЩИЙ ГОРОДОК</h4>
 						<p>— №1 —</p>
@@ -36,25 +36,24 @@
 						<img src="img/sedona_view.jpg" alt="Седона — не аттракцион для туристов, там течет своя жизнь" width="800px" height="256px">
 					</div>
 				</div>
-				<div class="clearfix"></div>
-				<div class="features">
-					<div class="features_block_1">
+				<div class="features clearfix">
+					<div class="features_block">
 						<img src="img/icon_1.png" width="75px" height="72" alt="Icon 1">
 						<h4>жилье</h4>
 						<p>Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
 					</div>
-					<div class="features_block_2">
+					<div class="features_block">
 						<img src="img/icon_2.png" width="75px" height="72" alt="Icon 2">
 						<h4>еда</h4>
-						<p>Всегда заказывайте фирменный бургер,вы не разочаруетесь!</p>
+						<p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
 					</div>
-					<div class="features_block_3">
+					<div class="features_block">
 						<img src="img/icon_3.png" width="75px" height="72" alt="Icon 3">
 						<h4>сувениры</h4>
 						<p>Не только китайского, но и местного производства!</p>
 					</div>
 				</div>
-				<div class="info_sedona">
+				<div class="info_sedona clearfix">
 					<div class="info_sedona_right">
 						<img src="img/sedona_view_2.jpg" alt="Седона — не только китайского, но и местного производства!" width="800px" height="256px">
 					</div>
@@ -64,18 +63,18 @@
 						<p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
 					</div>
 				</div>
-				<div class="features">
-					<div class="features_block_2">
+				<div class="features features_block2 clearfix">
+					<div class="features_block">
 						<h4>небольшая площадь</h4>
 						<p>— №3 —</p>
 						<p>Все достопримеча-тельности находятся очень близко</p>
 					</div>
-					<div class="features_block_2">
+					<div class="features_block">
 						<h4>красивая дорога</h4>
 						<p>— №4 —</p>
 						<p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
 					</div>
-					<div class="features_block_2">
+					<div class="features_block">
 						<h4>мало туристов</h4>
 						<p>— №5 —</p>
 						<p>Большинство едет в гранд каньон и толпится там</p>
@@ -86,40 +85,50 @@
 						<h3>заинтересовались?</h3>
 						<p>Укажите предполагаемые даты поездки,<br>и мы покажем вам лучшие предложения гостиниц в седоне</p>
 					</div>
-					<form class="search_form" action="#" method="post">
-						<h4>Поиск грстиницы седоне</h4>
-						<h4>Дата заезда:</h4>
-						<input type="text" name="date"  placeholder="24 Апреля 2017">
-						<button type="button">Calendar</button><br>
-						<h4>Дата Выезда:</h4>
-						<input type="text" name="date"  placeholder="4 июля 2017">
-						<button type="button">Calendar</button><br>
-						<div class="nr_pers">
-							<h4>Взрослыe:</h4>
-							<button class="pers_prev" type="button">-</button>
-							<input type="number" value="2">
-							<button class="pers_next" type="button">+</button>
-							<h4>Дети:</h4>
-							<button class="pers_prev" type="button">-</button>
-							<input type="number" value="0">
-							<button class="pers_next" type="button">+</button><br>
-							<button type="submit">найти</button>
+					<div class="search_block">
+						<div class="search_btn">
+							<h4>Поиск гостиницы седоне</h4>
 						</div>
-					</form>
+						<div class="map">
+							<form class="search_form" action="#" method="post">
+								<label>Дата заезда:
+									<input type="text" name="date"  placeholder="24 Апреля 2017">
+									<button type="button">Calendar</button>
+								</label>
+								<label>Дата Выезда:
+									<input type="text" name="date"  placeholder="4 июля 2017">
+									<button type="button">Calendar</button>
+								</label>
+								<div class="nr_pers">
+									<label>Взрослыe:
+										<input type="text" value="2">
+										<button class ="prev" type="submit">-</button>
+										<button class="next" type="submit">+</button>
+									</label>
+									<label>Дети:
+										<input type="text" value="0">
+										<button class ="prev" type="submit">-</button>
+										<button class="next" type="submit">+</button>
+									</label>
+								</div>
+								<button class="search_submit" type="submit">найти</button>
+							</form>
+						</div>
+					</div>
 				</div>
 			</div>
 <!--footer-->
-			<div class="footer">
-				<div class="chekin_sedona">#visitsedona</div>
-				<div class="footer_social">
-					<a class="social_btn social_btn_vk" href="#">Вконтакте</a>
-					<a class="social_btn social_btn_fb" href="#">Фейсбук</a>
-					<a class="social_btn social_btn_youtube" href="#">Youtube</a>
-				</div>
-				<div class="site_created">website by
-					<a href="https://htmlacademy.ru/"></a>
-				</div>
+			<div class="footer clearfix">
+					<div class="footer_block"><h4>#visitsedona</h4></div>
+					<div class="footer_block">
+						<a class="social_btn social_btn_vk" href="https://vk.com/"></a>
+						<a class="social_btn social_btn_fb" href="https://www.facebook.com/"></a>
+						<a class="social_btn social_btn_youtube" href="https://www.youtube.com/"></a>
+					</div>
+					<div class="footer_block"><span>website by</span>
+						<a class="created"href="https://htmlacademy.ru/"><img src="img/html_academy.png"></a>
+					</div>
 			</div>
-		</div>	
+		</div>
 	</body>
 </html>
