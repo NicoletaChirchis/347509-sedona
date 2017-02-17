@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="ru">
 	<head>
 		<meta charset="utf-8">
 		<title>Седона-Гостиницы</title>
+		<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
 		<link rel="stylesheet" href="css/normalize.css">
-		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/styles_min.css">
 	</head>
 	<body>
 <!--header-->
@@ -13,16 +13,16 @@
 				<ul>
 					<li><a href="#">информация</a></li>
 					<li><a href="#">фото и видео</a></li>
-					<li class="index_link"><a href="index.html"><img src="img/logo.png"></a></li>
+					<li class="index_link"><a href="index.html"><img src="img/logo.png" alt="Logo"></a></li>
 					<li><a href="#">карта штата</a></li>
-					<li><a href="#">гостиницы</a></li>
+					<li class="active">гостиницы</li>
 				</ul>
 			</div>
 			<form class="filter clearfix">
 				<div class="checkboxes"><h5>инфраструктура</h5>
 					<input type="checkbox" checked id="check1"><label for="check1">бассейн</label>
 					<input type="checkbox" id="check2"><label for="check2">парковка</label>
-					<input type="checkbox" id="check3"><label for="check3">wi-fi</label>
+					<input type="checkbox" id="check3" disabled><label for="check3">wi-fi</label>
 				</div>
 				<div class="checkboxes"><h5>тип жилья</h5>
 					<input type="checkbox" checked id="check4"><label for="check4">гостиница</label>
@@ -59,8 +59,8 @@
 					</ul>
 				</div>
 				<div class="select_item">
-					<button class="btn btn_prev" type="submit">▲</button>
-					<button class="btn btn_next" type="submit">▼</button>
+					<a href="#" class="btn btn_prev">▲</a>
+					<a href="#" class="btn btn_next">▼</a>
 				</div>
 			</div>
 			<div class="founded_items clearfix">
@@ -81,7 +81,7 @@
 					</div>
 				</div>
 				<div class="reiting_item">
-					<img src="img/star_4.png">
+					<img src="img/star_4.png" alt="Four Star">
 					<span>Рейтинг:8,5</span>
 				</div>
 			</div>
@@ -103,7 +103,7 @@
 					</div>
 				</div>
 				<div class="reiting_item">
-					<img src="img/star_3.png">
+					<img src="img/star_3.png" alt="Three Star">
 					<span>Рейтинг:8,9</span>
 				</div>
 			</div>
@@ -125,7 +125,7 @@
 					</div>
 				</div>
 				<div class="reiting_item">
-					<img src="img/star_2.png">
+					<img src="img/star_2.png"  alt="Two Star">
 					<span>Рейтинг:9,2</span>
 				</div>
 			</div>
@@ -138,8 +138,8 @@
 					<a class="social_btn social_btn_fb" href="https://www.facebook.com/"></a>
 					<a class="social_btn social_btn_youtube" href="https://www.youtube.com/"></a>
 				</div>
-				<div class="footer_block"><span>website by</span>
-					<a class="created"href="https://htmlacademy.ru/"><img src="img/html_academy.png"></a>
+				<div class="footer_block crt"><span>website by</span>
+					<a class="created crt" href="https://htmlacademy.ru/"></a>
 				</div>
 			</div>
 		</div>
