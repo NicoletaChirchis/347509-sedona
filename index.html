@@ -91,25 +91,29 @@
 						</div>
 						<div class="map">
 							<form class="search_form" action="#" method="post">
-								<label class="input_calendar">Дата заезда:
-									<input type="text" name="date"  placeholder="24 Апреля 2017">
+								<div class="date_box">
+									<label for="start_date">Дата заезда:</label>
+									<input type="text" id="start_date" name="start_date" placeholder="24 Апреля 2017">
 									<a href="#"></a>
-								</label>
-								<label class="input_calendar">Дата Выезда:
-									<input type="text" name="date"  placeholder="4 июля 2017">
+								</div>
+								<div class="date_box">
+									<label for="end_date">Дата Выезда:</label>
+									<input type="text" id="end_date" name="end_date" placeholder="4 июля 2017">
 									<a href="#"></a>
-								</label>
-								<div class="nr_pers">
-									<label>Взрослыe:
-										<input type="text" value="2">
-										<button class="prev" type="submit">-</button>
-										<button class="next" type="submit">+</button>
-									</label>
-									<label>Дети:
-										<input type="text" value="0">
-										<button class="prev" type="submit">-</button>
-										<button class="next" type="submit">+</button>
-									</label>
+								</div>
+								<div class="nr_pers clearfix">
+									<div class="nr_adults">
+										<label class="number_box" for="nr_adults">Взрослыe:</label>
+										<input type="text" id="nr_adults" value="2">
+										<a href="#" class="prev">-</a>
+										<a href="#" class="next">+</a>
+									</div>
+									<div class="nr_children">
+										<label class="number_box" for="number_children">Дети:</label>
+										<input type="text" id="number_children" value="0">
+										<a href="#" class="prev">-</a>
+										<a href="#" class="next">+</a>
+									</div>
 								</div>
 								<button class="search_submit" type="submit">найти</button>
 							</form>
