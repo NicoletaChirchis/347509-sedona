@@ -20,6 +20,7 @@ body{
 	margin: auto;
 	box-shadow: 10px 0 6px -6px #dbdbdb, -10px 0 6px -6px #dbdbdb;
 	background-color: #ffffff;
+	position: relative;
 }
 
 .menu_header, .menu_header ul{
@@ -265,15 +266,17 @@ body{
 	padding-left: 10px;
 }
 
+
 .nr_pers{
 	margin: 0 0 50px;
 }
 
 .nr_pers input{
-	width: 90px;
+	width: 35px;
 	text-align: center;
 	font-family: "PT Sans", "Arial", sans-serif;
 	font-weight: 600;
+	margin-left: 40px;
 }
 
 .nr_adults{
@@ -295,11 +298,14 @@ body{
 
 .prev{
 	position: relative;
-	right: 80px;
+	left: -78px;
+    padding-right: 25px;
+    height: 35px;
+    padding-left: 10px;
 }
 
 .next{
-	position: relative;
+	/*position: relative;*/
 	right: 40px;
 }
 
@@ -330,9 +336,12 @@ body{
 }
 
 .search_btn h4{
+	font-weight: 600;
+	font-size: 21px;
+	line-height: 21px;
 	background-color: #766357;
-	margin: 0 315px;
 	padding: 40px 0;
+	margin: 0;
 	color: white;
 	outline:none;
 }
@@ -367,9 +376,18 @@ body{
 	border:none;
 }
 
-.map{
-	height: 480px;
-	background: #81b3d2 url("../img/map.jpg");
+.search_block{
+	position: relative;
+	width: 570px;
+	margin: 0 auto;
+}
+
+.search_form{
+	/*height: 480px;
+	background: #81b3d2 url("../img/map.jpg");*/
+	
+	position: absolute;
+	left: 0;
 }
 
 .search_form_show{
@@ -497,18 +515,26 @@ body{
 	background-position: -10px -941px;
 }
 
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+	background-color: rgba(255, 255, 255, 0.8);
+}
+
+
 .footer_block{
 	width: 400px;
 	min-height: 50px;
 	float: left;
 	padding-top: 50px;
 	padding-bottom: 50px;
-	background-color: #f9fbf6;
 	margin: 0;
 	line-height: 0;
 }
 
-.footer h4{
+footer h4{
 	margin: 0;
 	line-height: 50px;
 	font-weight: 800;
