@@ -78,13 +78,13 @@ body{
 .view_header{
 	width: 1200px;
 	height: 535px;
-	background-color: #81b3d2;
 	background: url("../img/gorgeous.png") no-repeat 50% 25%,
 				url("../img/welcome.png") no-repeat 50% 15%,
 				url("../img/sedona.png") no-repeat 50% 45%, 
 				url("../img/grand_canyon.png") no-repeat 50% 75%,
 				url("../img/background_footer.png") no-repeat bottom, 
-				url("../img/background.jpg") 50% 25%;  
+				url("../img/background.jpg") 50% 25%
+				#81b3d2;  
 }
 
 .content .title_page{
@@ -369,7 +369,7 @@ body{
 
 .map{
 	height: 480px;
-	background-image: url("../img/map.jpg");
+	background: #81b3d2 url("../img/map.jpg");
 }
 
 .search_form_show{
@@ -378,7 +378,7 @@ body{
 
 
 .sprite{
-	background-image: url(spritesheet.png);
+	background: #81b3d2 url(spritesheet.png);
 	background-repeat: no-repeat;
 	display: block;
 }
@@ -519,8 +519,7 @@ body{
 	display: inline-block;
 	margin-left: 2px;
 	margin-right: 2px;
-	background: #81b3d2;
-	background-image: url("../img/sprite2.png");
+	background: #81b3d2 url("../img/sprite2.png");
 	background-repeat: no-repeat;
 }
 
@@ -589,7 +588,7 @@ top:-15px;
 }
 
 .created{
-	background-image: url("../img/sprite2.png");
+	background: url("../img/sprite2.png") #ffffff;
 	background-repeat: no-repeat;
 	width: 113px;
 	height: 39px;
@@ -597,7 +596,7 @@ top:-15px;
 }
 
 .created:hover{
-	background-image: url("../img/sprite2.png");
+	background: url("../img/sprite2.png") #ffffff;
 	background-repeat: no-repeat;
 	width: 113px;
 	height: 39px;
@@ -605,7 +604,7 @@ top:-15px;
 }
 
 .created:active{
-	background-image: url("../img/sprite2.png");
+	background: url("../img/sprite2.png") #ffffff;
 	background-repeat: no-repeat;
 	width: 113px;
 	height: 39px;
@@ -614,7 +613,7 @@ top:-15px;
 }
 
 .filter{
-	background: #f2f2f2 url("../img/background_filter.png");
+	background: #81b3d2 url("../img/background_filter.png");
 	padding: 0 70px;
 	padding-bottom: 30px;
 	margin: 0 auto;
