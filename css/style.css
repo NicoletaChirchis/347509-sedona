@@ -22,15 +22,6 @@ body{
 	margin-top: 0;
 }
 
- h4{
-	font-weight: 600;
-	font-size: 21px;
-	line-height: 21px;
-	margin-top: 50px;
-	margin-left: 120px;
-	margin-right: 120px;
-}
-
 .container{
 	width: 1200px;
 	margin: auto;
@@ -125,6 +116,7 @@ body{
 
 .features{
 	width: 1200px;
+
 }
 
 .features img{
@@ -142,10 +134,22 @@ body{
 .features_block{
 	width: 400px;
 	float: left;
-	padding-bottom: 80px;
+	min-height: 335px;
 }
 .features_block2{
 	background-color: #eeeeee;
+	width: 400px;
+	float: left;
+	padding-top: 30px;
+	min-height: 260px;
+}
+
+.features h4{
+	font-weight: 600;
+	font-size: 21px;
+	line-height: 21px;
+	margin-left: 120px;
+	margin-right: 120px;
 }
 
 .reservation_form h3{
@@ -353,10 +357,6 @@ body{
 	background-image: url("../img/map.jpg");
 }
 
-.search_form{
-	display: none;
-}
-
 .search_form_show{
 	display: block;
 }
@@ -484,6 +484,7 @@ body{
 
 .footer_block{
 	width: 400px;
+	min-height: 50px;
 	float: left;
 	padding-top: 50px;
 	padding-bottom: 50px;
@@ -617,11 +618,11 @@ top:-15px;
 	float: left;
 }
 
-.checkboxes input[type="checkbox"]{
+input[type="checkbox"]{
 	display: none;
 }
 
-.checkboxes input[type="checkbox"] + label{
+input[type="checkbox"] + label{
 	display: block;
 	margin: 10px 0;
 	padding-left: 45px;
@@ -630,7 +631,7 @@ top:-15px;
 	cursor: pointer;
 }
 
-.checkboxes input[type="checkbox"]:disabled + label::before{
+input[type="checkbox"]:disabled + label::before{
 	content: "";
 	position: absolute;
 	top:0;
@@ -644,7 +645,7 @@ top:-15px;
 	background-position: -10px -178px;
 }
 
-.checkboxes input[type="checkbox"] + label::before{
+input[type="checkbox"] + label::before{
 	content: "";
 	position: absolute;
 	top:0;
@@ -656,7 +657,7 @@ top:-15px;
 	background-position: -10px -10px;
 }
 
-.checkboxes input[type="checkbox"]:checked  + label::before {
+input[type="checkbox"]:checked  + label::before {
 	content:"";
 	background-image: url(../img/sprite.png);
 	background-repeat: no-repeat;
