@@ -130,9 +130,7 @@ body{
 }
 
 .features img{
-	margin-left: 165px;
-	margin-right: 165px;
-	margin-top: 70px;
+	margin: 70px auto 0;
 }
 .features p{
 	color: #333333;
