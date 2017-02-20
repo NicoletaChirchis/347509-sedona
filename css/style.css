@@ -103,6 +103,7 @@ body{
 	line-height: 21px;
 	margin-left: 120px;
 	margin-right: 120px;
+	margin-top: 50px;
 }
 
 
@@ -397,7 +398,7 @@ body{
 
 @keyframes slide {
   0%   {
-    transform: translateY(-2000px);
+    transform: translateY(-200px);
   }
   70%  {
     transform: translateY(30px);
@@ -636,7 +637,7 @@ body{
 
 .crt span{
 position:relative;
-top:-15px;
+top:-10px;
 }
 
 .created{
