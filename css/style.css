@@ -17,7 +17,7 @@ body{
 
 .container{
 	width: 1200px;
-	margin: auto;
+	margin: 0 auto;
 	box-shadow: 10px 0 6px -6px #dbdbdb, -10px 0 6px -6px #dbdbdb;
 	background-color: #ffffff;
 	position: relative;
@@ -96,6 +96,15 @@ body{
 	background: #81b3d2;
 	line-height: 0;
 }
+
+.info_sedona h4{
+	font-weight: 600;
+	font-size: 21px;
+	line-height: 21px;
+	margin-left: 120px;
+	margin-right: 120px;
+}
+
 
 .info_sedona_left{
 	width: 400px;
@@ -184,7 +193,7 @@ body{
 
 .search_form input{
 	border: 0;
-	line-height: 35px;
+	line-height: 33px;
 	background-color: #f2f2f2;
 	padding: 0;
 }
@@ -195,15 +204,17 @@ body{
 }
 
 .date_box input{
-	width: 328px;
+	width: 298px;
 	outline: none;
+	padding: 0 30px 0 0;
+	background: #f2f2f2;
 }
 .date_box a{
 	position: relative;
 	display:block;
 	width: 21px;
 	height: 22px;
-	background: #f2f2f2 url("../img/calendar.png") no-repeat;
+	background: transparent url("../img/calendar.png") no-repeat;
 	top: -31px;
 	left: 420px;
 }
@@ -217,14 +228,12 @@ body{
 }
 
 .date_box input:hover{
-	width: 328px;
 	position: relative;
 	outline: none;
 	cursor: pointer;
 }
 
 .date_box input:active{
-	width: 328px;
 	position: relative;
 	outline: none;
 	cursor: pointer;
@@ -272,20 +281,23 @@ body{
 }
 
 .nr_pers input{
-	width: 35px;
+	width: 40px;
 	text-align: center;
 	font-family: "PT Sans", "Arial", sans-serif;
 	font-weight: 600;
-	margin-left: 40px;
+	padding: 0 35px 0 35px;
+	border: none;
+	outline: none;
 }
 
 .nr_adults{
 	float: left;
+	position: relative;
 }
 
 .nr_children{
 	float: right;
-	margin-right: -25px;
+	position: relative;
 }
 
 .nr_children label {
@@ -296,38 +308,34 @@ body{
 	text-decoration: none;
 }
 
+.prev, .next{
+	position: absolute;
+	color: #a9a9a9;
+	font-size: 26px;
+	background-color: #f2f2f2; 
+	border: none;
+	cursor: pointer;
+	outline: none;
+}
+
 .prev{
-	position: relative;
-	left: -78px;
-    padding-right: 25px;
-    height: 35px;
-    padding-left: 10px;
+	padding-left: 12px;
+	top: 2px;
 }
 
 .next{
-	/*position: relative;*/
-	right: 40px;
-}
-
-.prev, .next{
-	color: #a9a9a9;
-	font-size: 21px;
-	background-color: #f2f2f2;
-	border: none;
-	cursor: pointer;
-	outline:none;
+	right: 12px;
+	top: 2px;
 }
 
 .prev:hover,
 .next:hover{
 	color: #000000;
-	outline:none;
 }
 
 .prev:active,
 .next:active{
 	color: #81b3d2;
-	outline:none;
 }
 
 .search_btn{
@@ -383,17 +391,13 @@ body{
 }
 
 .search_form{
-	/*height: 480px;
-	background: #81b3d2 url("../img/map.jpg");*/
-	
 	position: absolute;
 	left: 0;
 }
 
-.search_form_show{
-	display: block;
+.search_form_hidden{
+	display: none;
 }
-
 
 .sprite{
 	background: #81b3d2 url(spritesheet.png);
@@ -515,7 +519,7 @@ body{
 	background-position: -10px -941px;
 }
 
-footer {
+.index_footer {
     position: absolute;
     left: 0;
     bottom: 0;
@@ -534,7 +538,14 @@ footer {
 	line-height: 0;
 }
 
-footer h4{
+.index_footer h4{
+	margin: 0;
+	line-height: 50px;
+	font-weight: 800;
+	font-size: 21px;
+}
+
+.footer_catalog  h4{
 	margin: 0;
 	line-height: 50px;
 	font-weight: 800;
@@ -869,10 +880,14 @@ input[type="checkbox"]:checked  + label::before {
 	color: #000000;
 	line-height: 21px;
 	margin-left: 35px;
+	font-weight: 600;
+	line-height: 26px;
 }
 
 .sort_item ul{
 	display: inline-block;
+	font-weight: 600;
+	line-height: 26px;
 }
 
 .sort_item li{
