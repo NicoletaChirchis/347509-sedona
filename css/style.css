@@ -535,6 +535,12 @@ body{
 	background-position: -10px -941px;
 }
 
+.goolge_map{
+	width: 100%;
+	height: 630px;
+	border: 0;
+}
+
 .index_footer {
     position: absolute;
     left: 0;
