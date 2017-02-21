@@ -106,7 +106,6 @@ body{
 	margin-top: 50px;
 }
 
-
 .info_sedona_left{
 	width: 400px;
 	float: left;
@@ -208,6 +207,7 @@ body{
 	padding: 0 30px 0 0;
 	background: #f2f2f2;
 }
+
 .date_box a{
 	position: relative;
 	display:block;
@@ -537,7 +537,7 @@ body{
 
 .goolge_map{
 	width: 100%;
-	height: 630px;
+	height: 600px;
 	border: 0;
 }
 
@@ -554,8 +554,8 @@ body{
 	width: 400px;
 	min-height: 50px;
 	float: left;
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding-top: 35px;
+	padding-bottom: 35px;
 	margin: 0;
 	line-height: 0;
 }
@@ -647,7 +647,7 @@ top:-10px;
 }
 
 .created{
-	background: url("../img/sprite2.png") #ffffff;
+	background: url("../img/sprite2.png")  ;
 	background-repeat: no-repeat;
 	width: 113px;
 	height: 39px;
@@ -655,7 +655,7 @@ top:-10px;
 }
 
 .created:hover{
-	background: url("../img/sprite2.png") #ffffff;
+	background: url("../img/sprite2.png");
 	background-repeat: no-repeat;
 	width: 113px;
 	height: 39px;
@@ -663,7 +663,7 @@ top:-10px;
 }
 
 .created:active{
-	background: url("../img/sprite2.png") #ffffff;
+	background: url("../img/sprite2.png");
 	background-repeat: no-repeat;
 	width: 113px;
 	height: 39px;
@@ -931,7 +931,6 @@ input[type="checkbox"]:checked  + label::before {
 	color: #cacaca;
 }
 
-
 .sort_item a:hover{
 	color: #81b3d2;
 }
@@ -984,6 +983,7 @@ input[type="checkbox"]:checked  + label::before {
 	margin: 0;
 	margin-bottom: 12px;
 	line-height: 21px;
+	font-size: 21px;
 }
 
 .name_hotel h3{
@@ -1028,7 +1028,7 @@ input[type="checkbox"]:checked  + label::before {
 }
 
 .cell_1{
-	width: 110px;
+	width: 102px;
 	color: white;
 	background-color: #81b3d2;
 	border-right: 8px solid #ffffff;
